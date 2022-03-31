@@ -1,0 +1,30 @@
+Ex_Midterm   
+미니멈 버전 19
+score_korean
+score_english
+score_math
+score_history
+
+btn_average
+
+score_average
+
+btn_result
+
+국어        95
+영어        97
+수학        88
+한국사     65
+
+▶학점 (if 문을 사용합니다)
+  평균점수를 바탕으로...
+     90＜평균점수≤100   →  학점 A
+     80＜평균점수≤ 90   →  학점 B
+     70＜평균점수≤ 80   →  학점 C
+     60＜평균점수≤ 70   →  학점 D
+       0≤평균점수≤ 60   →  학점 F
+▶우수상 (switch문을 사용합니다)
+   학점에 따라서...
+     A일 때 "성적 우수상" 출력
+     B일 때 "장려상" 출력
+     C,D,F "격려상" 출력
